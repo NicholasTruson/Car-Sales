@@ -1,3 +1,5 @@
+import { ADD_ITEM, REMOVE } from '../actions'
+
 const initialState = {
     additionalPrice: 0,
     car: {
@@ -14,3 +16,11 @@ const initialState = {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
   };
+
+  export const carReducer = (state = initialState, action) => {
+    console.log(action)
+
+        switch
+            case
+
+  }
